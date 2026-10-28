@@ -1,0 +1,54 @@
+# Manual function boundaries discovered during runtime validation.
+
+# MSVC setjmp/longjmp helpers used by the game's JPEG error recovery.
+setjmp_address = 0x821FA8F0
+longjmp_address = 0x821FA3B0
+
+[functions."0x82310FB0"]
+end = 0x82311024
+
+[functions."0x823EB8B8"]
+end = 0x823EB8D0
+
+[functions."0x821B59F0"]
+end = 0x821B5A08
+
+[functions."0x82126A78"]
+end = 0x82126A98
+
+[functions."0x8217DF48"]
+end = 0x8217DF6C
+
+[functions."0x82153FF0"]
+end = 0x82154008
+
+[functions."0x82422590"]
+end = 0x824225A0
+
+[functions."0x823FCB08"]
+end = 0x823FCB10
+
+[functions."0x823F5330"]
+end = 0x823F5338
+
+[functions."0x8244EDD0"]
+end = 0x8244EDE4
+
+[functions."0x8240E590"]
+end = 0x8240E5A8
+
+[functions."0x8213BDA8"]
+end = 0x8213BDD0
+
+[functions."0x82128E98"]
+end = 0x82128EA0
+
+[functions."0x823EB990"]
+end = 0x823EB9A8
+
+[functions."0x823E2738"]
+end = 0x823E274C
+
+[functions."0x821EA128"]
+end = 0x821EA148
+

@@ -1,0 +1,33 @@
+# Original Xbox 360 game content
+game/
+data/
+assets/
+*.xex
+*.iso
+*.live
+*.con
+*.pirs
+
+# Builds and local runtime data
+out/
+**/bin/
+**/obj/
+saves/
+logs/
+cache/
+binary-backups/
+launcher-settings.json
+codegen.log
+generated/default/codegen.d
+generated/default/codegen.stamp
+generated/default/codegen.build.stamp
+generated/default/codegen.partition.json
+
+# Editor and operating-system files
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+Thumbs.db
+.DS_Store
